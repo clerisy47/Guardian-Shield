@@ -4,6 +4,8 @@
 
 Guardian-Shield is a browser extension designed to enhance your online security by detecting and preventing common fraud and phishing attempts in your emails. The extension provides three key features:
 
+## Key Features
+
 1. **Phishing Alert:** Guardian-Shield gives you instant alerts when it detects potential phishing systems, helping you stay vigilant against malicious activities.
 
 2. **Terms and Conditions Summarizer:** The extension summarizes terms and conditions in your emails, making you aware of possible exploits and ensuring that you have a clear understanding of the content.
