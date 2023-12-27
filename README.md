@@ -52,6 +52,14 @@ Or simply
 [Utsav Acharya](https://github.com/clerisyutsav47)    
 [Darshan Kumar Paudyal](https://github.com/Darshan808)    
 
+## FAQs
+
+### Q: Is this application suitable for seniour citizens?
+A: Absolutely! This application is an excellent way to prevent online frauds to senior citizens. In facts it was inspired by how our parents got into these frauds frequently.
+
+### Q: Can I contribute to this project?
+A: Of course! We welcome contributions from developers, educators or even if you have any idea. Please refer to the Contributing section for guidelines.
+
 ## License
 
 Guardian-Shield is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
