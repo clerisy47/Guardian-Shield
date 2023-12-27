@@ -8,7 +8,7 @@ output = 'models.zip'
 gdown.download(url, output, quiet=False)
 
 with zipfile.ZipFile("models.zip", 'r') as zip_ref:
-    zip_ref.extractall("models")
+    zip_ref.extractall("")
 
 os.remove("models.zip")
 
