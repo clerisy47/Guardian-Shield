@@ -26,9 +26,9 @@ To use Guardian-Shield, follow these installation steps:
 
 ## Contributors
 
-[Sadina Upreti](https://github.com/Sadina61)
-[Utsav Acharya](https://github.com/clerisyutsav47)
-[Darshan Kumar Paudyal](https://github.com/Darshan808)
+[Sadina Upreti](https://github.com/Sadina61)    
+[Utsav Acharya](https://github.com/clerisyutsav47)    
+[Darshan Kumar Paudyal](https://github.com/Darshan808)    
 
 ## License
 
