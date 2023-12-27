@@ -29,7 +29,7 @@ async def summarize(text: str):
     try:
         inputs = tokenizer_summarize(text, return_tensors="pt")
         with torch.no_grad():
-            outputs = model_summarize.generate(**inputs)
+            outputs = model_summarize.generate(**inputs, min_length=len(text)//10)
         summary = tokenizer_summarize.decode(outputs[0], skip_special_tokens=True)
         return {"summary": summary}
     except Exception as e:
