@@ -3,6 +3,8 @@ from transformers import AutoTokenizer, AutoModelForSequenceClassification, Auto
 import torch
 from pydantic import BaseModel
 import uvicorn
+import torch.nn.functional as F
+
 
 app = FastAPI()
 
@@ -27,8 +29,10 @@ def predict_spam_ham(item: InputText):
     inputs = tokenizer_mail(item.text, return_tensors="pt")
     with torch.no_grad():
         outputs = model_mail(**inputs)    
-    predicted_percentage = outputs.logits
-    return {"text": predicted_percentage}
+    logits = outputs.logits
+    probabilities = F.softmax(logits, dim=1)
+    spam_probability = probabilities[0][0].item()
+    return {"text": round(spam_probability*100, 2)}
 
 @app.post("/summarize")
 async def summarize(request: SummarizationRequest):
