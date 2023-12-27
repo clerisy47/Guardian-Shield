@@ -16,13 +16,35 @@ You can always suggest new feature or code your own in this extension by contact
 
 ## Installation
 
-To use Guardian-Shield, follow these installation steps:
+To secure your online interface, follow these installation steps:
 
-1. Clone or download the repository to your local machine.
-2. Install the required Python packages by running `pip install -r requirements.txt`.
+BTW, we're publishing our extension to chrome and firefox mobile browser. It takes around 7 days for google to accept it and we're hosting the backend at aws too. So, you don't need to hustle it in near time except simple extension installation
+
+1. Clone the project's GitHub repository:
+
+   ```bash
+   git clone https://github.com/clerisyutsav47/Guardian-Shield.git
+   ```
+2. Change directory to the project folder:
+
+    ```bash
+    cd Guardian-Shield
+    ```
+
+3. Install the necessary python dependencies:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
 3. Run `download_models.py` to download the necessary machine learning models.
 4. Execute `app.py` to launch the FastAPI backend.
-5. Load the extension in Chrome by enabling Developer Mode and adding the extension folder.
+Or simply
+```bash
+    python download_models.py
+    python app.py
+```
+
+6. Load the extension in Chrome by enabling Developer Mode and adding the extension folder.
 
 ## Contributors
 
