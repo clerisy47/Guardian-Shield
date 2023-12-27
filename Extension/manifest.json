@@ -4,22 +4,23 @@
   "version": "1.0",
   "description": "Detects possible frauds and phising in user's mail.",
   "icons": {
-    "16": "mail.png",
-    "48": "mail.png",
-    "128": "mail.png"
+    "16": "shield.png",
+    "48": "shield.png",
+    "128": "shield.png"
   },
   "browser_action": {
     "default_icon": {
-      "16": "mail.png",
-      "48": "mail.png",
-      "128": "mail.png"
+      "16": "shield.png",
+      "48": "shield.png",
+      "128": "shield.png"
     },
     "default_title": "Click to activate the extension"
   },
   "permissions": [
     "activeTab",
     "webNavigation",
-    "scripting"
+    "scripting",
+    "https://mail.google.com/"
   ],
   "content_scripts": [
     {
