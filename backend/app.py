@@ -17,9 +17,9 @@ class InputText(BaseModel):
     text: str
 
 tokenizer_mail = AutoTokenizer.from_pretrained("bert-base-uncased")
-tokenizer_summarize = AutoTokenizer.from_pretrained("tokenizer_summarize")
-model_mail = AutoModelForSequenceClassification.from_pretrained('./model_mail')
-model_summarize = AutoModelForSequenceClassification.from_pretrained('./model_summarize')
+tokenizer_summarize = AutoTokenizer.from_pretrained("models/tokenizer_summarize")
+model_mail = AutoModelForSequenceClassification.from_pretrained('models/model_mail')
+model_summarize = AutoModelForSequenceClassification.from_pretrained('models/model_summarize')
 
 @app.post("/predict")
 def predict_spam_ham(item: InputText):
