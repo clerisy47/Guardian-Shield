@@ -22,6 +22,12 @@ To use Guardian-Shield, follow these installation steps:
 4. Execute `app.py` to launch the FastAPI backend.
 5. Load the extension in Chrome by enabling Developer Mode and adding the extension folder.
 
+## Contributors
+
+[Sadina Upreti](https://github.com/Sadina61)
+[Utsav Acharya](https://github.com/clerisyutsav47)
+[Darshan Kumar Paudyal](https://github.com/Darshan808)
+
 ## License
 
 Guardian-Shield is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
