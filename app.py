@@ -29,11 +29,8 @@ def predict_spam_ham(text: str):
     print({"text": round(spam_probability*100, 2)})
     return {"text": round(spam_probability*100, 2)}
 
-<<<<<<< HEAD
 
-=======
 # Endpoint for summarizing text
->>>>>>> 35f81c4eb936f907c90c5602de51b900306e4b0a
 @app.post("/summarize")
 async def summarize(text: str):
     try:
