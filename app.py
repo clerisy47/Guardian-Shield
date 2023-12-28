@@ -7,7 +7,7 @@ import torch.nn.functional as F
 
 app = FastAPI()
 
-
+# Loads pretrained models and tokenizers
 tokenizer_mail = AutoTokenizer.from_pretrained("bert-base-uncased")
 tokenizer_summarize = AutoTokenizer.from_pretrained(
     "./models/tokenizer_summarize")
@@ -17,6 +17,7 @@ model_summarize = AutoModelForSeq2SeqLM.from_pretrained(
     './models/model_summarize')
 
 
+# Endpoint for predicting spam or ham
 @app.post("/predict")
 def predict_spam_ham(text: str):
     inputs = tokenizer_mail(text, return_tensors="pt")
@@ -28,7 +29,11 @@ def predict_spam_ham(text: str):
     print({"text": round(spam_probability*100, 2)})
     return {"text": round(spam_probability*100, 2)}
 
+<<<<<<< HEAD
 
+=======
+# Endpoint for summarizing text
+>>>>>>> 35f81c4eb936f907c90c5602de51b900306e4b0a
 @app.post("/summarize")
 async def summarize(text: str):
     try:
