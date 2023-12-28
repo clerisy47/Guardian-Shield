@@ -60,6 +60,55 @@ A: Absolutely! This application is an excellent way to prevent online frauds to 
 ### Q: Can I contribute to this project?
 A: Of course! We welcome contributions from developers, educators or even if you have any idea. Please refer to the Contributing section for guidelines.
 
+## Terms and Conditions
+
+Please read these terms and conditions carefully before using Guardian-Shield.
+
+1. **Usage Agreement:**
+   By installing and using Guardian-Shield, you agree to abide by the terms and conditions outlined in this document. If you do not agree with any part of these terms, you may not use the extension.
+
+2. **Privacy and Security:**
+   Guardian-Shield is committed to protecting your privacy and enhancing your online security. The extension does not collect or store any personally identifiable information. For more details on our privacy practices, please refer to our [Privacy Policy](#privacy-policy).
+
+3. **Modification of Terms:**
+   Guardian-Shield reserves the right to modify these terms and conditions at any time. It is your responsibility to review this documentation periodically for changes. Your continued use of the extension after any modifications indicates your acceptance of the updated terms.
+
+### Privacy Policy
+
+Last updated: [Date]
+
+Guardian-Shield is committed to protecting your privacy and ensuring the security of your information. This Privacy Policy outlines how we collect, use, and disclose information through the Guardian-Shield browser extension.
+
+### Information We Collect
+
+1. **Email Content:**
+   Guardian-Shield processes the content of your emails locally on your device for the purpose of fraud detection and phishing alerts. We do not transmit or store your email content on external servers.
+
+2. **Usage Data:**
+   We may collect non-personal information about how you interact with the extension, such as the features you use and the frequency of usage. This data helps us improve and optimize Guardian-Shield.
+
+### Information Sharing
+
+1. **Third-Party Services:**
+   Guardian-Shield does not share your personal information with third-party services or entities. We prioritize the security and privacy of our users.
+
+2. **Legal Compliance:**
+   We may disclose information if required to do so by law or in response to valid requests by public authorities.
+
+### Your Choices
+
+You have the right to:
+
+- **Opt-Out:** You can choose not to use certain features of Guardian-Shield if you do not agree with this Privacy Policy.
+- **Access and Correct Your Information:** You can access and correct your personal information processed by Guardian-Shield.
+
+### Changes to this Privacy Policy
+
+We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page.
+
+
+
+
 ## License
 
 Guardian-Shield is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
