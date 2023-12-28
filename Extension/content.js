@@ -31,10 +31,15 @@ const hasTermsAndConditions = () => {
 };
 
 const scrapeTermsAndConditions = () => {
-  const tandc = document.querySelector("#primary");
-  if (tandc) {
-    return cleanText(tandc.textContent);
-  }
+  const allDivs = document.querySelectorAll("div");
+  allDivs.forEach((div) => {
+    if (
+      div.textContent.includes("Terms and Conditions") &&
+      div.textContent.length > 500
+    ) {
+      return div.textContent;
+    }
+  });
 };
 
 function isPotentialPhishing(url) {
