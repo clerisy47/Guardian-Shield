@@ -18,8 +18,6 @@ You can always suggest new feature or code your own in this extension by contact
 
 To secure your online interface, follow these installation steps:
 
-BTW, we're publishing our extension to chrome and firefox mobile browser. It takes around 7 days for google to accept it and we're hosting the backend at aws too. So, you don't need to hustle it in near time except simple extension installation
-
 1. Clone the project's GitHub repository:
 
    ```bash
