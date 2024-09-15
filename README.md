@@ -73,8 +73,6 @@ Please read these terms and conditions carefully before using Guardian-Shield.
 
 ### Privacy Policy
 
-Last updated: [Date]
-
 Guardian-Shield is committed to protecting your privacy and ensuring the security of your information. This Privacy Policy outlines how we collect, use, and disclose information through the Guardian-Shield browser extension.
 
 ### Information We Collect
